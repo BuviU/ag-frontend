@@ -1,0 +1,44 @@
+/* 
+
+Content
+1. App js
+2. Hero Section  
+3. Section Two  
+
+*/
+
+
+.navbar{
+    background-color: #06150c !important;
+    color: #fff !important;
+}
+
+.navbar-brand, .nav-link{
+    color: #fff !important;
+}
+
+
+
+/* === 2.Hero Section  */
+
+
+.hero-video-desktop{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* === 2.Section Two  */
