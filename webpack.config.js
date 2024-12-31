@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/', // Ensure React Router works with routing and assets
   },
   module: {
     rules: [
@@ -39,5 +40,6 @@ module.exports = {
     static: './dist',
     open: true,
     port: 3000,
+    historyApiFallback: true, // Redirect all routes to index.html for React Router
   },
 };
